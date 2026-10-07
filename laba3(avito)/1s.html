@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AvitoType</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <header class="menu">
+        <b class="logo">AvitoType<span>dark</span></b>
+        <nav>
+            <a href="1s.html" class="active">Главная</a>
+            <a href="2s.html">О нас</a>
+            <a href="3s.html">Контакты</a>
+        </nav>
+    </header> 
+    <h2 class="title">Доступны в данный момент</h2>
+    <div class="catalog">
+        
+        <div class="card">
+            <img src="jacket.jpg" alt="Куртка">
+            <h3>Курточка Архив 26SS</h3>
+            <p class="price">7000₽</p>
+        </div>
+
+        <div class="card">
+            <img src="boots.jpg" alt="Ботинки">
+            <h3>Ботинки Борис биджан тайп</h3>
+            <p class="price">5000₽</p>
+        </div>
+
+        <div class="card">
+            <img src="jeans.jpg" alt="Джинсы">
+            <h3>Джинсы Bootcut</h3>
+            <p class="price">3000₽</p>
+        </div>
+
+    </div>
+
+    <div class="calc-box">
+        <h3>Калькулятор заказа</h3>
+        
+        <label>Выберите товар (Фиксированный тариф):</label>
+        <select id="tarif">
+            <option value="7000">Курточка Архив 26SS — 7000 ₽</option>
+            <option value="5000">Ботинки Борис биджан — 5000 ₽</option>
+            <option value="3000">Джинсы Bootcut — 3000 ₽</option>
+        </select>
+
+        <label>Начальный показатель (Было на складе, шт):</label>
+        <input type="number" id="nachalo" value="10">
+
+        <label>Конечный показатель (Осталось на складе, шт):</label>
+        <input type="number" id="konec" value="7">
+
+        <button id="knopka">Рассчитать расход и сумму</button>
+        <div id="result"></div>
+    </div>
+            <div id="result"></div>
+    </div>
+    <footer class="footer">
+        <div class="footer-logo">AvitoType<span>dark</span> © 2026</div>
+        <div class="footer-text">Права этого сайта защищенны самый крутым парнем в мире(мной само собой)</div>
+        <div class="footer-links">
+            <a href="1s.html">Главная</a>
+            <a href="2s.html">О нас</a>
+            <a href="3s.html">Контакты</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

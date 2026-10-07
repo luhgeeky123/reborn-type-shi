@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AvitoType — Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-input { width: 100%; padding: 12px; margin-top: 10px; background: #121214; border: 1px solid #29292e; color: white; border-radius: 4px; }
+        .social-btn { display: inline-block; margin: 10px 10px 0 0; padding: 10px 20px; background: #1a1a1e; border: 1px solid #29292e; color: white; text-decoration: none; border-radius: 4px; transition: 0.3s; }
+        .social-btn:hover { background: #8a2be2; border-color: #8a2be2; }
+    </style>
+</head>
+<body>
+
+    <header class="menu">
+        <b class="logo">AvitoType<span>dark</span></b>
+        <nav>
+            <a href="1s.html">Главная</a>
+            <a href="2s.html">О нас</a>
+            <a href="3s.html" class="active">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="info-container" style="max-width: 500px;">
+        <h2>Связаться с нами</h2>
+        <p style="color: #a8a8b3; text-align: center; margin-bottom: 20px;">Есть вопросы по поводу заказа или дропов? Напиши нам!</p>
+        
+        <form onsubmit="alert('Сообщение успешно отправлено!'); return false;">
+            <input type="text" class="contact-input" placeholder="Ваше имя" required>
+            <input type="email" class="contact-input" placeholder="Ваш Email" required>
+            <textarea class="contact-input" rows="4" placeholder="Текст сообщения..." required style="resize: none;"></textarea>
+            
+            <button type="submit" id="knopka" style="margin-top: 15px;">Отправить сообщение</button>
+        </form>
+
+        <hr style="border: 0; border-top: 1px solid #29292e; margin: 25px 0;">
+
+        <h3>Мы в сети:</h3>
+        <a href="#" class="social-btn">✈️ Telegram</a>
+        <a href="#" class="social-btn">📸 Instagram</a>
+    </div>
+            <div id="result"></div>
+    </div>
+
+        </div> 
+    <footer class="footer">
+        <div class="footer-logo">AvitoType<span>dark</span> © 2026</div>
+        <div class="footer-text">Права этого сайта защищенны самый крутым парнем в мире(мной само собой)</div>
+        <div class="footer-links">
+            <a href="1s.html">Главная</a>
+            <a href="2s.html">О нас</a>
+            <a href="3s.html">Контакты</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
